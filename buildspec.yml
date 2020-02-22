@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - aws s3 sync public/ s3://taipei-website-static
+      - aws cloudfront create-invalidation --distribution-id E36JH48QYEHNZ3 --paths "/*"
