@@ -4,11 +4,20 @@ import React from "react";
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <img
-      src={logo}
-      alt="Diamond Way Buddhism Karma Kagyu Lineage Taiwan"
-      className="header__logo"
-    ></img>
+    <a href="/" className="header__logo">
+      <img
+        src={logo}
+        alt="Diamond Way Buddhism Karma Kagyu Lineage Taiwan"
+      ></img>
+    </a>
+    <div className="header__menu" id="offcanvas">
+      <a className="header__menu__item" href="/">
+        Homepage
+      </a>
+      <a className="header__menu__item" href="/faq">
+        Travel info
+      </a>
+    </div>
   </header>
 );
 

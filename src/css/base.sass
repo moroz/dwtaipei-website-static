@@ -1,4 +1,4 @@
-html, body
+html
   font-size: $base-font-size
   font-weight: 400
 
@@ -7,9 +7,11 @@ body
   background: white
   padding: 0
   font-family: $family-sans
+  font-size: 19px
   color: $text-color
 
 main
+  padding-top: $header-height !important
   flex: 1
 
 .site
@@ -19,3 +21,23 @@ main
 
 a
   color: $primary-color
+
+p
+  font-size: 19px
+  margin-bottom: 1em
+
+.container
+  max-width: 720px
+
+h1, h2, h3
+  text-align: center
+  line-height: 1.125
+  font-weight: 600
+  margin-bottom: .6em
+  margin-top: 1.2em
+h1
+  font-size: 2em
+h2
+  font-size: 1.75em
+h3
+  font-size: 1.5em
