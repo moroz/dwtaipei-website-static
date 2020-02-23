@@ -9,8 +9,8 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
-      <div className="static-page">
-        <h2>{frontmatter.title}</h2>
+      <h2 className="title is-2 has-text-centered">{frontmatter.title}</h2>
+      <div className="content">
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout>

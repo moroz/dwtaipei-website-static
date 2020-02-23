@@ -4,19 +4,19 @@ date: "2020-02-03"
 title: Travel information (archived)
 ---
 
-::: {.notification .is-warning}
+<div class="notification is-warning">
 Please note that the event will not take place, as explained [on the
 homepage](/). The information on this page is left for reference only,
 as it could come in handy some day in the future. Brace yourselves,
 remember to wash your hands regularly, and avoid touching your face.
 Stay safe!
-:::
+</div>
 
 ## Course Venue 📍
 
 The course will take place at the **Tamsui Cultural Park** in Tamsui
 District, New Taipei City, Taiwan. The venue is situated directly at the
-Tamsui River ([淡水河]{lang="zh-Hant"}), with a good view of Mount
+Tamsui River (<span lang="zh-Hant">淡水河</span>), with a good view of Mount
 Guanyin, named after Bodhisattva Avalokiteśvara, and the Taiwan Strait,
 separating Taiwan from China. There are plenty of restaurants, cafés,
 hotels, and hostels in walking distance, and the Tamsui District is in
@@ -27,8 +27,8 @@ No. 22, Bitou Street, Tamsui District, New Taipei City, 251\
 Tamsui Art and Cultural Park
 
 Address in Chinese:\
-[251 新北市淡水區鼻頭街 22 號\
-淡水文化園區・殼牌倉庫]{lang="zh-Hant"}
+<span lang="zh-Hant">251 新北市淡水區鼻頭街 22 號\
+淡水文化園區・殼牌倉庫</span>
 
 ## Before you board the plane 🛫
 
@@ -43,7 +43,7 @@ will not send visa invitation letters to anyone.
 
 The requirements for Chinese nationals are likely to be more strict. If
 you are a Chinese national living abroad, it may be easier for you to
-apply for an Entry Permit ([入台證]{lang="zh-Hant"}) in your country of
+apply for an Entry Permit (<span lang="zh-Hant">入台證</span>) in your country of
 residence.
 
 Due to the recent outbreaks of the African Swine Fever, it is strictly
@@ -59,10 +59,10 @@ undeclared meat products, you will be fined **NT\$1,000,000** (approx.
 The main airport in Taiwan is known as the **Taiwan Taoyuan
 International Airport** (IATA: TPE) and is located in Taoyuan City, to
 the south of Taipei. You can easily get to downtown Taipei with the
-**Airport MRT** ([機場捷運]{lang="zh-Hant"}), which takes 38 minutes to
+**Airport MRT** (<span lang="zh-Hant">機場捷運</span>), which takes 38 minutes to
 get to Taipei Main Station. You can easily get by with single tickets,
 but in general it's cheaper and more convenient to buy an _EasyCard_
-([悠遊卡]{lang="zh-Hant"}), available at all ticket booths and ticketing
+(<span lang="zh-Hant">悠遊卡</span>), available at all ticket booths and ticketing
 machines for NT\$100 (approx. 3€). You can recharge your card at all
 convenience stores and MRT stations, and also use it to pay for buses,
 local trains, taxis, or for your shopping at supermarkets and
@@ -117,10 +117,10 @@ popular booking websites, such as
 During the course, you will probably like to stay somewhere along the
 red line of the MRT. The Tamsui station is quite a long way from the
 city center. If you want to stay somewhere more convenient, you can look
-for accomodation near Shilin ([士林]{lang="zh-Hant"}), Jiantan
-([劍潭]{lang="zh-Hant"}), or Beitou ([北投]{lang="zh-Hant"}) stations.
+for accomodation near Shilin (<span lang="zh-Hant">士林</span>), Jiantan
+(<span lang="zh-Hant">劍潭</span>), or Beitou (<span lang="zh-Hant">北投</span>) stations.
 All of these places are also good starting points for trips to the
-Yangmingshan National Park ([陽明山國家公園]{lang="zh-Hant"}).
+Yangmingshan National Park (<span lang="zh-Hant">陽明山國家公園</span>).
 
 ## Staying safe 👮
 
@@ -138,4 +138,3 @@ rent a car with an International Driving Permit if you register your
 documents with the police, we do not recommend driving around Taiwan\'s
 cities, particularly the Taipei Metropolitan Area, Taichung, and
 Kaohsiung.
-:::
