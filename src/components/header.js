@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       <a className="header__menu__item" href="/">
         Homepage
       </a>
-      <a className="header__menu__item" href="/faq">
+      <a className="header__menu__item" href="/faq/">
         Travel
       </a>
     </div>
