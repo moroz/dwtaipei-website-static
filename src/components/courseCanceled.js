@@ -20,7 +20,9 @@ export default () => (
       由於新型冠狀病毒疫情持續蔓延，導致眾多朋友無法來台灣，歐雷・尼達爾喇嘛於2020年2月3日宣佈取消臺北大手印課程。請見以下喇嘛歐雷公開說明：
     </p>
     <hr />
-    <h2 className="title has-text-centered">Lama Ole Nydahl's Open Letter</h2>
+    <h2 className="title has-text-centered">
+      Lama Ole Nydahl's Open&nbsp;Letter
+    </h2>
     <div className="open_letter">
       <p className="has-text-right">Irkutsk, February 3rd, 2020</p>
       <p>Dearest Diamond Way students and friends everywhere,</p>
@@ -65,4 +67,3 @@ export default () => (
     </div>
   </div>
 );
-

@@ -9,9 +9,11 @@ body
 main
   padding-top: $header-height + 2
   padding-bottom: 2em
-  padding-left: 1em
-  padding-right: 1em
+  padding-left: 1.25em
+  padding-right: 1.25em
   flex: 1
+  +touch
+    padding-top: $header-height
 
 .site
   display: flex
@@ -26,3 +28,9 @@ p
 
 .container
   max-width: 720px
+
+h1.title, h2.title, .title.is-2, .content h2
+  +mobile
+    font-size: 1.7rem
+    margin: 1em 0 .5em
+

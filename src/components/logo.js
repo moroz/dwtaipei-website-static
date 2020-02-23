@@ -1,9 +1,10 @@
 import React from "react";
 import logoDesktop from "../images/logo-desktop.svg";
 import logoTouch from "../images/logo-touch.svg";
+import { Link } from "gatsby";
 
 export default () => (
-  <a href="/" className="header__logo">
+  <Link to="/" className="header__logo">
     <img
       src={logoDesktop}
       alt="Diamond Way Buddhism Karma Kagyu Lineage Taiwan"
@@ -14,5 +15,5 @@ export default () => (
       alt="Diamond Way Buddhism Karma Kagyu Lineage Taiwan"
       className="is-hidden-desktop"
     ></img>
-  </a>
+  </Link>
 );
