@@ -2,20 +2,46 @@
   height: $header-height
   background: white
   border-bottom: 1px solid $primary-color
-  display: flex
-  align-items: center
-  padding: 0 $header-padding-horizontal
   position: fixed
   left: 0
   right: 0
-  z-index: 2
+  z-index: 33
+  --navbar-fg: #{$primary-color}
   &, a
     color: $header-item-color
+
+.header__inner
+  display: flex
+  align-items: center
+  height: $header-height
+  position: relative
+  padding: 0 $header-padding-horizontal
+  +touch
+    padding: 0 0 0 1em
+    justify-content: space-between
+
+.header--expanded
+  +touch
+    background: white
+
+    .header__menu
+      display: flex
 
 .header__logo
   > img
     height: $header-logo-height
   line-height: 0
+
+.header__sitename
+  position: absolute
+  font-size: 1.1rem
+  color: var(--navbar-fg) !important
+  top: 50%
+  left: 50%
+  margin: 0
+  transform: translate(-50%, -50%)
+  height: $header-height
+  line-height: $header-height
 
 .header__menu
   margin-left: auto
@@ -23,11 +49,77 @@
   font-size: 1.125em
   overflow: hidden
 
+  +touch
+    background: white
+    display: none
+    position: fixed
+    align-items: stretch
+    top: $header-height
+    left: 0
+    right: 0
+    bottom: 0
+    flex-direction: column
+
 .header__menu__item
   padding: 0 .65em
-  height: calc(#{$header-height} - 1px)
-  line-height: calc(#{$header-height} - 1px)
+  height: calc(#{$header-height} - 2px)
+  line-height: calc(#{$header-height} - 2px)
   transition: .15s ease-in-out
+  text-align: center
 
   &:hover
     background: darken(white, 5%)
+
+  +touch
+    width: 100%
+    height: $header-height
+    line-height: $header-height
+    margin-top: .5em
+
+#hamburgerToggle
+  +desktop
+    display: none
+
+  input
+    display: block
+    width: $header-height
+    height: $header-height
+    position: fixed
+    cursor: pointer
+    top: 0
+    right: 0
+    opacity: 0 // hide this
+    z-index: 34 // and place it over the hamburger
+    -webkit-touch-callout: none
+
+  span
+    display: block
+    width: 33px
+    height: 4px
+    right: 50%
+    margin-bottom: 5px
+    margin-top: 5px
+    position: relative
+    background: var(--navbar-fg)
+    border-radius: 3px
+    z-index: 10
+    transform-origin: 4px 0px
+    transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0), background 0.3s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.35s ease
+
+  span:first-child
+    transform-origin: 0% 0%
+
+  span:nth-of-type(3)
+    transform-origin: 0% 100%
+
+  input:checked ~ span
+    opacity: 1
+    transform: translate(2px, 2px) rotate(45deg) translate(-2px, -1px)
+    background: $offcanvas-fg
+
+  input:checked ~ span:nth-of-type(2)
+    opacity: 0
+    transform: rotate(0deg) scale(0.2, 0.2)
+
+  input:checked ~ span:nth-of-type(3)
+    transform: translate(2px, 2px) rotate(-45deg) translate(0, -1px)
