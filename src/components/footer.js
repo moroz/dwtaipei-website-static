@@ -2,10 +2,10 @@ import React from "react";
 
 export default () => (
   <footer className="footer">
+    <p>© 2019-2020 Diamond Way Buddhist Group Taipei.</p>
     <p>
-      © {new Date().getFullYear()} by Karol Moroz. Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>.
+      <a href="mailto:info@mahamudra.taipei">info@mahamudra.taipei</a> (English,
+      Mandarin, Polish)
     </p>
   </footer>
 );

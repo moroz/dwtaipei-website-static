@@ -5,8 +5,8 @@ title: Travel information (archived)
 ---
 
 <div class="notification is-warning">
-Please note that the event will not take place, as explained [on the
-homepage](/). The information on this page is left for reference only,
+Please note that the event will not take place, as explained <a href="/">on the homepage</a>.
+The information on this page is left for reference only,
 as it could come in handy some day in the future. Brace yourselves,
 remember to wash your hands regularly, and avoid touching your face.
 Stay safe!
